@@ -1,0 +1,59 @@
+body {
+    background-color: rgb(255, 253, 122);
+}
+.container {
+   
+    height: 100%;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    display: flex;
+    border-radius: 50%;
+}
+
+.header > h1{
+    color: rgb(255, 224, 24);
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.header {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+     text-align: center;
+}
+
+
+
+.body {
+    display: flex;
+    align-items: left;
+    flex-direction: column;
+    
+}
+.body button {
+    
+    background-color:rgb(5, 254, 63);
+    width: 100px;
+    border-radius: 5px;
+    line-height: 28px;
+    padding: 0 10px 0 11px;
+    font-size: 15px;
+    align-items: center!important ;
+
+}
+
+.body input {
+  
+    display: inline-block;
+    padding: 5px;
+    outline: none;
+    font-size: 13px;
+   font-weight: 700;
+    margin-bottom: 10px;
+
+}
+
+.card {
+    width: 400px;
+    height: 300px;
+    background-color:#75682d;
+}
